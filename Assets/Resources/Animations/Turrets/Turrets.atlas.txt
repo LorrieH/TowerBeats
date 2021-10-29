@@ -1,0 +1,797 @@
+
+Turrets.png
+size: 1642,3999
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BassTurret parts/Middle
+  rotate: false
+  xy: 959, 156
+  size: 47, 54
+  orig: 47, 54
+  offset: 0, 0
+  index: -1
+BassTurret parts/TURRET_Circle
+  rotate: false
+  xy: 1416, 54
+  size: 128, 80
+  orig: 128, 80
+  offset: 0, 0
+  index: -1
+BassTurret parts/TURRET_Circle_Back
+  rotate: false
+  xy: 811, 20
+  size: 128, 73
+  orig: 128, 73
+  offset: 0, 0
+  index: -1
+BassTurret parts/TURRET_Middel
+  rotate: false
+  xy: 1546, 105
+  size: 79, 72
+  orig: 79, 72
+  offset: 0, 0
+  index: -1
+BassTurret parts/TURRET_standard_2
+  rotate: false
+  xy: 811, 95
+  size: 146, 115
+  orig: 146, 115
+  offset: 0, 0
+  index: -1
+BassTurret parts/Turret_Ligth
+  rotate: false
+  xy: 406, 24
+  size: 201, 174
+  orig: 201, 174
+  offset: 0, 0
+  index: -1
+BassTurret parts/back
+  rotate: false
+  xy: 1618, 3965
+  size: 22, 32
+  orig: 22, 32
+  offset: 0, 0
+  index: -1
+BassTurret parts/boll
+  rotate: false
+  xy: 1416, 136
+  size: 124, 122
+  orig: 124, 122
+  offset: 0, 0
+  index: -1
+BassTurret parts/middle_side
+  rotate: false
+  xy: 1571, 3077
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+BassTurret parts/top
+  rotate: false
+  xy: 810, 731
+  size: 47, 43
+  orig: 47, 43
+  offset: 0, 0
+  index: -1
+Turret Lead Parts/TURRET_Lead_Block_Blue
+  rotate: false
+  xy: 1369, 3145
+  size: 45, 37
+  orig: 45, 37
+  offset: 0, 0
+  index: -1
+Turret Lead Parts/TURRET_Lead_Block_Blue2
+  rotate: false
+  xy: 561, 749
+  size: 45, 37
+  orig: 45, 37
+  offset: 0, 0
+  index: -1
+Turret Lead Parts/TURRET_Lead_Block_Blue_Top
+  rotate: false
+  xy: 1167, 2614
+  size: 45, 41
+  orig: 45, 41
+  offset: 0, 0
+  index: -1
+Turret Lead Parts/TURRET_Lead_Block_Green
+  rotate: false
+  xy: 763, 1026
+  size: 37, 29
+  orig: 37, 29
+  offset: 0, 0
+  index: -1
+Turret Lead Parts/TURRET_Lead_Hexagon
+  rotate: false
+  xy: 1571, 3642
+  size: 66, 67
+  orig: 66, 67
+  offset: 0, 0
+  index: -1
+Turret Lead Parts/TURRET_Lead_Logo
+  rotate: false
+  xy: 1571, 3587
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+Turret Lead Parts/TURRET_Lead_Platform1
+  rotate: false
+  xy: 609, 36
+  size: 200, 174
+  orig: 200, 174
+  offset: 0, 0
+  index: -1
+Turret Lead Parts/TURRET_Lead_Platform2
+  rotate: false
+  xy: 1542, 179
+  size: 95, 79
+  orig: 95, 79
+  offset: 0, 0
+  index: -1
+Turret_Anims/Fire0001
+  rotate: false
+  xy: 1012, 2328
+  size: 153, 327
+  orig: 153, 327
+  offset: 0, 0
+  index: -1
+Turret_Anims/Fire0002
+  rotate: false
+  xy: 1214, 2855
+  size: 153, 327
+  orig: 153, 327
+  offset: 0, 0
+  index: -1
+Turret_Anims/Fire0003
+  rotate: false
+  xy: 1416, 3382
+  size: 153, 327
+  orig: 153, 327
+  offset: 0, 0
+  index: -1
+Turret_Anims/Fire0004
+  rotate: false
+  xy: 406, 459
+  size: 153, 327
+  orig: 153, 327
+  offset: 0, 0
+  index: -1
+Turret_Anims/Fire0005
+  rotate: false
+  xy: 608, 986
+  size: 153, 327
+  orig: 153, 327
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0001
+  rotate: false
+  xy: 810, 1583
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0012
+  rotate: false
+  xy: 810, 1583
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0002
+  rotate: false
+  xy: 810, 1324
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0003
+  rotate: false
+  xy: 1012, 2069
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0004
+  rotate: false
+  xy: 1012, 1810
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0005
+  rotate: false
+  xy: 1012, 1551
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0006
+  rotate: false
+  xy: 1012, 1292
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0007
+  rotate: false
+  xy: 406, 200
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0008
+  rotate: false
+  xy: 1214, 2596
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0009
+  rotate: false
+  xy: 1167, 2337
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0010
+  rotate: false
+  xy: 1214, 2078
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Left/TURRET_Drum_Fire_Left0011
+  rotate: false
+  xy: 1214, 1819
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0001
+  rotate: false
+  xy: 2, 22
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0012
+  rotate: false
+  xy: 2, 22
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0002
+  rotate: false
+  xy: 406, 1076
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0003
+  rotate: false
+  xy: 608, 1603
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0004
+  rotate: false
+  xy: 810, 2130
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0005
+  rotate: false
+  xy: 1012, 2657
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0006
+  rotate: false
+  xy: 1214, 3184
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0007
+  rotate: false
+  xy: 1416, 3711
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0008
+  rotate: false
+  xy: 204, 22
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0009
+  rotate: false
+  xy: 406, 788
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0010
+  rotate: false
+  xy: 608, 1315
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Fire_Right/TURRET_Drum_Fire_Right0011
+  rotate: false
+  xy: 810, 1842
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0001
+  rotate: false
+  xy: 1214, 1561
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0002
+  rotate: false
+  xy: 1214, 1561
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0036
+  rotate: false
+  xy: 1214, 1561
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0003
+  rotate: false
+  xy: 1214, 1303
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0004
+  rotate: false
+  xy: 1416, 3124
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0005
+  rotate: false
+  xy: 1369, 2866
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0006
+  rotate: false
+  xy: 1416, 2608
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0008
+  rotate: false
+  xy: 1416, 2608
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0007
+  rotate: false
+  xy: 608, 728
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0035
+  rotate: false
+  xy: 608, 728
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0009
+  rotate: false
+  xy: 561, 470
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0010
+  rotate: false
+  xy: 608, 212
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0011
+  rotate: false
+  xy: 763, 470
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0012
+  rotate: false
+  xy: 763, 470
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0013
+  rotate: false
+  xy: 810, 212
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0014
+  rotate: false
+  xy: 1369, 2338
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0015
+  rotate: false
+  xy: 1416, 2080
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0016
+  rotate: false
+  xy: 1416, 1822
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0017
+  rotate: false
+  xy: 1416, 1564
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0018
+  rotate: false
+  xy: 1416, 1306
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0019
+  rotate: false
+  xy: 763, 1057
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0020
+  rotate: false
+  xy: 965, 1034
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0021
+  rotate: false
+  xy: 1167, 1034
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0022
+  rotate: false
+  xy: 1369, 1045
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0023
+  rotate: false
+  xy: 810, 776
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0024
+  rotate: false
+  xy: 1012, 776
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0025
+  rotate: false
+  xy: 1214, 776
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0026
+  rotate: false
+  xy: 965, 518
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0027
+  rotate: false
+  xy: 1167, 518
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0028
+  rotate: false
+  xy: 1012, 260
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0029
+  rotate: false
+  xy: 1214, 260
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0030
+  rotate: false
+  xy: 1416, 787
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0031
+  rotate: false
+  xy: 1369, 518
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0032
+  rotate: false
+  xy: 1416, 260
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0033
+  rotate: false
+  xy: 1012, 2
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Idle/TURRET_Drum_Idle0034
+  rotate: false
+  xy: 1214, 2
+  size: 200, 256
+  orig: 200, 256
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0001
+  rotate: false
+  xy: 2, 3472
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0015
+  rotate: false
+  xy: 2, 3472
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0002
+  rotate: false
+  xy: 2, 2945
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0003
+  rotate: false
+  xy: 204, 3472
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0004
+  rotate: false
+  xy: 2, 2418
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0005
+  rotate: false
+  xy: 204, 2945
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0006
+  rotate: false
+  xy: 406, 3472
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0007
+  rotate: false
+  xy: 2, 1891
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0008
+  rotate: false
+  xy: 204, 2418
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0009
+  rotate: false
+  xy: 406, 2945
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0010
+  rotate: false
+  xy: 608, 3472
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0011
+  rotate: false
+  xy: 2, 1364
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0012
+  rotate: false
+  xy: 204, 1891
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0013
+  rotate: false
+  xy: 406, 2418
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0014
+  rotate: false
+  xy: 608, 2945
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Sell/TURRET_Drum_Sell0015
+  rotate: false
+  xy: 810, 3472
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0001
+  rotate: false
+  xy: 2, 837
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0002
+  rotate: false
+  xy: 204, 1364
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0003
+  rotate: false
+  xy: 406, 1891
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0004
+  rotate: false
+  xy: 608, 2418
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0005
+  rotate: false
+  xy: 810, 2945
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0006
+  rotate: false
+  xy: 1012, 3472
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0007
+  rotate: false
+  xy: 2, 310
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0008
+  rotate: false
+  xy: 204, 837
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0009
+  rotate: false
+  xy: 406, 1364
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0010
+  rotate: false
+  xy: 608, 1891
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0011
+  rotate: false
+  xy: 810, 2418
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0012
+  rotate: false
+  xy: 1012, 2945
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0013
+  rotate: false
+  xy: 1214, 3472
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1
+Turret_Anims/TURRET_Drum_Spawn/TURRET_Drum_Spawn0014
+  rotate: false
+  xy: 204, 310
+  size: 200, 525
+  orig: 200, 525
+  offset: 0, 0
+  index: -1

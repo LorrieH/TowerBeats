@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SettingsManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAECAAQAAAgAAAEAAAAAAAAAIAAAgAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\SettingsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaveManager">
+    <Position X="2" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAQAAAgAAAAAhAAABAAAAAAEAAAAAAkA=</HashCode>
+      <FileName>Assets\Scripts\Managers\WaveManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerConfig">
+    <Position X="11.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Configs\TowerConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemySpawner">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAgAAgAAAABIAgAAgAAAAgAACAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerData">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAQCAgAACAAECAAAAAgCAAAACAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tower">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAABAAABAIAAgAAAIAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\Tower Types\Tower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BassTower">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\Tower Types\BassTower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrumTower">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\Tower Types\DrumTower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInfo">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="PlayerInfo.InfoUpdate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\UI\PlayerInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAKACAAwAAAAAAAAAAAAAAAgAAEAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlayerInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelSelect">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\LevelSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelWaypoints">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LevelWaypoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SynthTower" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\Tower Types\SynthTower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerUtilities">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\TowerUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerMenu">
+    <Position X="14.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAAAAAgAAAAAAAAAACAAAAgEAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Towers\TowerMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexGrid">
+    <Position X="5.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEEADAEAAAEAAgAAAgAAAAAgAAAAACgCAAIAAMA=</HashCode>
+      <FileName>Assets\Scripts\Grid\HexGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\Menus\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerShopMenu">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Menus\TowerShopMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Tile.TileClicked" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Grid\Tile.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAECAAAEAAIAAAACAAAACAAEAAIAAIQAAAYAA=</HashCode>
+      <FileName>Assets\Scripts\Grid\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuManager">
+    <Position X="16" Y="9" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="MenuManager.MenuOpened" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Managers\MenuManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="MenuManager.MenuClosed" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Managers\MenuManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAhAAAAAAAEAAAAAgAIACAAABAEg=</HashCode>
+      <FileName>Assets\Scripts\Managers\MenuManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpectrumManager">
+    <Position X="8.5" Y="11" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="SpectrumManager.GetSpectrumInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Managers\SpectrumManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\SpectrumManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridPathCreator">
+    <Position X="12.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACAACEACAEAAAAAAAAAAAAAABAAEAAAAAAAAACGA=</HashCode>
+      <FileName>Assets\Scripts\GridPathCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelMusic">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAABAEA=</HashCode>
+      <FileName>Assets\Scripts\LevelMusic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathsData">
+    <Position X="14.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PathManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridPath">
+    <Position X="10.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\PathManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathManager">
+    <Position X="10.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAgAAAAAgAAACAAAAAAAAgAAAACAAAACGA=</HashCode>
+      <FileName>Assets\Scripts\PathManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sceneloader">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAACAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Sceneloader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongPlaylist">
+    <Position X="2" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\SongPlaylist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerTypeTags">
+    <Position X="16" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TowerTypeTags.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="17.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Struct Name="TowerData">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAJBQAAEAgABEA=</HashCode>
+      <FileName>Assets\Scripts\Towers\Tower Types\Tower.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MenuNames">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAgAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\MenuManager.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BeatsInfo">
+    <Position X="2" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Managers\SpectrumManager.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="TowerTypes">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\Tower Types\Tower.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OffsetAxis">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Grid\HexGrid.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TileState">
+    <Position X="3.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Grid\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BeatTypes">
+    <Position X="2" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Managers\SpectrumManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

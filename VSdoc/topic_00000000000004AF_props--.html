@@ -1,0 +1,666 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="GENERATOR" content="VSdocman - documentation generator; http://www.helixoft.com" />
+	<title>TrackEntry Properties</title>
+
+	<link rel="stylesheet" type="text/css" href="msdn2017/msdn2017.css"></link>
+	<script src="msdn2017/msdn2017.js" type="text/javascript"></script>
+	<script src="SyntaxHighlighter/scripts/shCore_helixoft.js" type="text/javascript"></script>
+	<script src="SyntaxHighlighter/scripts/shBrushVb.js" type="text/javascript"></script>
+	<script src="SyntaxHighlighter/scripts/shBrushCSharp.js" type="text/javascript"></script>
+	<script src="SyntaxHighlighter/scripts/shBrushFSharp.js" type="text/javascript"></script>
+	<script src="SyntaxHighlighter/scripts/shBrushCpp.js" type="text/javascript"></script>
+	<script src="SyntaxHighlighter/scripts/shBrushJScript.js" type="text/javascript"></script>
+	<link href="SyntaxHighlighter/styles/shCore.css" rel="stylesheet" type="text/css" />
+	<link href="SyntaxHighlighter/styles/shThemeMsdnLW.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+		SyntaxHighlighter.all();
+	</script>				
+
+	<script type="text/javascript">
+<!--
+if (self.name != "vbdocright") {
+	if (location.search != "?toc=no") {
+		var filename = location.pathname.replace(/\\/g, "/");
+		filename = filename.substring(filename.lastIndexOf('/')+1);
+		location.replace("index.html#" + filename);
+	} 
+}
+
+function replaceTitleAndUrl(win, title, url) {
+	if(history.replaceState) {
+		win.history.replaceState(null, title, url);
+	} else {
+		win.document.title = document.title;
+		win.location.replace(url);
+	}
+}
+//-->
+	</script>	
+</head>
+
+<body style="direction: ltr;">
+	<script type="text/javascript">
+		try {
+			if (location.search != "?toc=no") {
+				parent.document.title = document.title;
+				var filename = location.pathname.replace(/\\/g, "/");
+				filename = filename.substring(filename.lastIndexOf('/')+1);
+				if (window.parent.location.search == null || window.parent.location.search != "?" + filename) {
+					if (window.parent.location.hash == null || window.parent.location.hash != "#" + filename) {
+						replaceTitleAndUrl(window.parent, document.title, "index.html#" + filename);
+					}
+				}
+			}
+		} catch (ex) {}
+	</script>
+	<div id="topic">
+<!--HEADER START-->
+  <div id="header">
+  	<div id="runningHeaderText">towerbeats Reference</div>
+  	<h1 class="title">TrackEntry Properties</h1>
+  	<div id="headerLinks">
+              <a href="topic_00000000000004AF.html">TrackEntry Class</a>
+            &nbsp;<a href="#seeAlsoSection">See Also</a>
+		</div>
+		<hr />
+	</div>
+<!--HEADER END-->
+    
+		<div id="mainSection">
+      <div id="mainBody">
+        <p />
+        <p>
+          The following tables list the members exposed by the  
+              <a href="topic_00000000000004AF.html">TrackEntry</a>
+             type.
+        </p>
+
+<div class="section_container">
+	<div class="section_heading">
+		<span><a href="javascript:void(0)" title="Collapse" onclick="toggleSection(this);">Properties</a></span>
+		<div><hr /></div>
+	</div>
+
+	<div id="PropertiesSection" class="section">	
+  <table class="memberListTable">
+    <tr>
+      <th></th>
+      <th>
+        Name
+      </th>
+      <th>
+        Description
+      </th>
+    </tr>
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004BD.html">Alpha</a>
+
+	</td>
+	<td>
+
+Values less than 1 mix this animation with the last skeleton pose. Defaults to 1, which overwrites the last skeleton pose with
+this animation.
+
+Typically track 0 is used to completely pose the skeleton, then alpha can be used on higher tracks. It doesn't make sense
+to use alpha on track 0 if the skeleton pose is from the last frame render.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004B3.html">Animation</a>
+
+	</td>
+	<td>
+
+The animation to apply for this track entry.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004B9.html">AnimationEnd</a>
+
+	</td>
+	<td>
+
+Seconds for the last frame of this animation. Non-looping animations won't play past this time. Looping animations will
+loop back to <a target="_top" href="topic_00000000000004B8.html" onclick="this.target='';return true;">AnimationStart</a> at this time. Defaults to the animation duration.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004BA.html">AnimationLast</a>
+
+	</td>
+	<td>
+
+The time in seconds this animation was last applied. Some timelines use this for one-time triggers. Eg, when this
+animation is applied, event timelines will fire all events between the animation last time (exclusive) and animation time
+(inclusive). Defaults to -1 to ensure triggers on frame 0 happen the first time this animation is applied.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004B8.html">AnimationStart</a>
+
+	</td>
+	<td>
+
+Seconds when this animation starts, both initially and after looping. Defaults to 0.
+
+When changing the animation start time, it often makes sense to set <a target="_top" href="topic_00000000000004BA.html" onclick="this.target='';return true;">AnimationLast</a> to the same value to
+prevent timeline keys before the start time from triggering.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004BB.html">AnimationTime</a>
+
+	</td>
+	<td>
+
+Uses <a target="_top" href="topic_00000000000004B6.html" onclick="this.target='';return true;">TrackTime</a> to compute the animation time between <a target="_top" href="topic_00000000000004B8.html" onclick="this.target='';return true;">AnimationStart</a>. and
+<a target="_top" href="topic_00000000000004B9.html" onclick="this.target='';return true;">AnimationEnd</a>. When the track time is 0, the animation time is equal to the animation start time.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004BF.html">AttachmentThreshold</a>
+
+	</td>
+	<td>
+
+When the mix percentage (mix time / mix duration) is less than the attachment threshold, attachment timelines for the
+animation being mixed out will be applied. Defaults to 0, so attachment timelines are not applied for an animation being
+mixed out.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004B5.html">Delay</a>
+
+	</td>
+	<td>
+
+Seconds to postpone playing the animation. When a track entry is the current track entry, delay postpones incrementing
+ the track time. When a track entry is queued, delay is the time from the start of the previous animation to when the
+ track entry will become the current track entry.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004C0.html">DrawOrderThreshold</a>
+
+	</td>
+	<td>
+
+When the mix percentage (mix time / mix duration) is less than the draw order threshold, draw order timelines for the
+animation being mixed out will be applied. Defaults to 0, so draw order timelines are not applied for an animation being
+mixed out.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004BE.html">EventThreshold</a>
+
+	</td>
+	<td>
+
+When the mix percentage (mix time / mix duration) is less than the event threshold, event timelines for the animation
+being mixed out will be applied. Defaults to 0, so event timelines are not applied for an animation being mixed out.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004C2.html">IsComplete</a>
+
+	</td>
+	<td>
+
+Returns true if at least one loop has been completed.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004B4.html">Loop</a>
+
+	</td>
+	<td>
+
+If true, the animation will repeat. If false, it will not, instead its last frame is applied if played beyond its duration.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004C4.html">MixDuration</a>
+
+	</td>
+	<td>
+
+Seconds for mixing from the previous animation to this animation. Defaults to the value provided by
+<a target="_top" href="topic_00000000000004DA.html" onclick="this.target='';return true;">AnimationStateData</a> based on the animation before this animation (if any).
+
+The mix duration can be set manually rather than use the value from AnimationStateData.GetMix.
+In that case, the mixDuration must be set before <a target="_top" href=".html" onclick="this.target='';return true;">Update(float)</a> is next called.
+<p>
+When using &lt;seealso cref=&quot;AnimationState.AddAnimation(int, Animation, bool, float)&quot; /&gt; with a
+			<div class="codeSnippetCodeCollection">
+				<div class="codeSnippetToolbar">
+					<a title="Copy to clipboard." href="javascript:void(0)" onclick="CopyCode(this);">Copy</a>
+				</div>
+				
+				<div class="codeSnippetCode">
+					<pre xml:space="preserve">delay					</pre>			
+				</div>
+			</div> less than or equal to 0, note the &lt;seealso cref=&quot;Delay&quot; /&gt; is set using the mix duration from the <a target="_top" href="topic_00000000000004DA.html" onclick="this.target='';return true;">AnimationStateData</a>
+</p>
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004C3.html">MixTime</a>
+
+	</td>
+	<td>
+
+Seconds from 0 to the mix duration when mixing from the previous animation to this animation. May be slightly more than
+<a target="_top" href="topic_00000000000004C4.html" onclick="this.target='';return true;">MixDuration</a> when the mix is complete.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004C5.html">MixingFrom</a>
+
+	</td>
+	<td>
+
+The track entry for the previous animation when mixing from the previous animation to this animation, or null if no
+mixing is currently occuring. When mixing from multiple animations, MixingFrom makes up a linked list.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004C1.html">Next</a>
+
+	</td>
+	<td>
+
+The animation queued to start after this animation, or null.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004BC.html">TimeScale</a>
+
+	</td>
+	<td>
+
+Multiplier for the delta time when the animation state is updated, causing time for this animation to play slower or
+faster. Defaults to 1.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004B7.html">TrackEnd</a>
+
+	</td>
+	<td>
+
+The track time in seconds when this animation will be removed from the track. Defaults to the animation duration for
+non-looping animations and to <a target="_top" href=".html" onclick="this.target='';return true;">MaxValue</a> for looping animations. If the track end time is reached and no
+other animations are queued for playback, and mixing from any previous animations is complete, properties keyed by the animation,
+are set to the setup pose and the track is cleared.
+
+It may be desired to use <a target="_top" href=".html" onclick="this.target='';return true;">AddEmptyAnimation(int,float,float)</a> to mix the properties back to the
+setup pose over time, rather than have it happen instantly.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004B2.html">TrackIndex</a>
+
+	</td>
+	<td>
+
+The index of the track where this entry is either current or queued.
+
+	</td>
+</tr>
+	
+
+
+	
+		<tr class="
+
+
+">
+	<td>
+<img alt="Public property" title="Public property" src="msdn2017/pubproperty.png"></img>
+	  
+
+    
+	</td>
+	<td>
+	<a href="topic_00000000000004B6.html">TrackTime</a>
+
+	</td>
+	<td>
+
+Current time in seconds this track entry has been the current track entry. The track time determines
+<a target="_top" href="topic_00000000000004BB.html" onclick="this.target='';return true;">AnimationTime</a>. The track time can be set to start the animation at a time other than 0, without affecting looping.
+
+	</td>
+</tr>
+	
+
+
+  </table>
+
+  <a href="#mainBody">
+    Top
+  </a>
+
+	</div>					
+</div>
+
+
+<div class="section_container">
+	<div class="section_heading">
+		<span><a href="javascript:void(0)" title="Collapse" onclick="toggleSection(this);">See Also</a></span>
+		<div><hr /></div>
+	</div>
+
+	<div id="seeAlsoSection" class="section">	
+		<div>
+			<a href="topic_00000000000004AF.html">TrackEntry Class</a><br />
+	<a href="topic_00000000000003C0.html">Spine Namespace</a><br />
+
+
+			
+
+		</div>
+	</div>					
+</div>
+			</div>
+			</div>
+      <div id="footer">
+      	<p><span style="color: #FF0000;">Generated with unregistered version of <a target="_top" href="http://www.helixoft.com/vsdocman/overview.html">VSdocman</a></span>&nbsp;<br />Your own footer text will only be shown in registered version.</p>
+      </div>
+    </div>
+  	<script type="text/javascript">
+<!--
+	try {
+		parent.frames["vbdocswitch"].expandLinkInToc(location.href);
+	} catch (ex) {}
+//-->
+		</script>	
+  </body>
+</html>
+

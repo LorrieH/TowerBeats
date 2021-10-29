@@ -1,0 +1,4749 @@
+{
+"skeleton": { "hash": "vp/CFjYQKRQ9W2qK1B8TgnpmqMw", "spine": "3.6.52", "width": 312, "height": 366.06, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "SpawnFX", "parent": "root" },
+	{ "name": "ElectricLine", "parent": "SpawnFX" },
+	{ "name": "Electric1", "parent": "ElectricLine", "length": 37.52, "rotation": 91.68, "x": -3.08, "y": -19.62 },
+	{ "name": "Electric2", "parent": "ElectricLine", "length": 61.02, "rotation": 90, "x": -1.46, "y": -4.48 },
+	{ "name": "Electric3", "parent": "ElectricLine", "length": 47.99, "rotation": 90, "x": 3.45, "y": -23.18 },
+	{ "name": "Electric4", "parent": "ElectricLine", "length": 61.02, "rotation": 90, "x": -1.46, "y": -4.48 },
+	{ "name": "Electric5", "parent": "ElectricLine", "length": 37.52, "rotation": 91.68, "x": -3.08, "y": -19.62 },
+	{ "name": "ElectricLine2", "parent": "ElectricLine", "x": 121.72, "y": 125.81 },
+	{ "name": "Hex", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex2", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex3", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex4", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex5", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex6", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex7", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex8", "parent": "ElectricLine", "length": 74.66, "rotation": 96.47, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex9", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex10", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex11", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex12", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex13", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex14", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex15", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex16", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex17", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex18", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "Hex19", "parent": "ElectricLine", "length": 74.66, "rotation": 89.71, "x": -0.7, "y": -2.21 },
+	{ "name": "HexHalf", "parent": "ElectricLine", "length": 56.47, "rotation": 90, "x": 0.81, "y": -7.13 },
+	{ "name": "HitFX", "parent": "root", "x": 2, "y": 37.86 },
+	{ "name": "LaserBeamFX", "parent": "root" },
+	{ "name": "LaserBeam", "parent": "LaserBeamFX", "length": 77.11, "rotation": 90, "y": -1.3 },
+	{ "name": "LaserHit", "parent": "root", "x": 1.08, "y": -0.44 },
+	{ "name": "ShootFX", "parent": "root", "x": 12, "y": 0.86 },
+	{ "name": "SpawnFX2", "parent": "SpawnFX", "length": 119.47, "rotation": 90.13, "x": 0.66, "y": 4.96 }
+],
+"slots": [
+	{ "name": "root2", "bone": "root", "attachment": "Asset 3" },
+	{ "name": "root", "bone": "root" },
+	{ "name": "Hit/HitEffect0001", "bone": "HitFX" },
+	{ "name": "Shoot/ShootFX0001", "bone": "ShootFX", "attachment": "Shoot/ShootFX0001" },
+	{ "name": "Spawn/Hex", "bone": "Hex", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex2", "bone": "Hex2", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex8", "bone": "Hex8", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex3", "bone": "Hex3", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex9", "bone": "Hex9", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex4", "bone": "Hex4", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex10", "bone": "Hex10", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex5", "bone": "Hex5", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex11", "bone": "Hex11", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex6", "bone": "Hex6", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex12", "bone": "Hex12", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex7", "bone": "Hex7", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex13", "bone": "Hex13", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex14", "bone": "Hex14", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex15", "bone": "Hex15", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex16", "bone": "Hex16", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex17", "bone": "Hex17", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex18", "bone": "Hex18", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/Hex19", "bone": "Hex19", "attachment": "Spawn/Hex" },
+	{ "name": "Spawn/HexHalf", "bone": "HexHalf", "attachment": "Spawn/HexHalf" },
+	{ "name": "Spawn/TURRET_Synth", "bone": "root" },
+	{ "name": "Bullet/Bullet", "bone": "LaserBeam", "attachment": "Bullet/Beam" },
+	{ "name": "SpwanLine", "bone": "SpawnFX2", "attachment": "SpwanLine" },
+	{ "name": "ElectricLine", "bone": "ElectricLine2", "attachment": "Spawn/ElectricLine/ElectricLine0001" },
+	{ "name": "ElectricLine2", "bone": "Electric1", "attachment": "Spawn/Electric1/Electric10004" },
+	{ "name": "ElectricLine6", "bone": "Electric5", "attachment": "Spawn/Electric1/Electric10004" },
+	{ "name": "ElectricLine3", "bone": "Electric2", "attachment": "Spawn/Electric2/Electric20006" },
+	{ "name": "ElectricLine5", "bone": "Electric4", "attachment": "Spawn/Electric2/Electric20006" },
+	{ "name": "ElectricLine4", "bone": "Electric3", "attachment": "Spawn/Electric3/Electric30006" },
+	{ "name": "LaserHit", "bone": "LaserHit", "attachment": "LaserHit/LaserHit0004" }
+],
+"skins": {
+	"default": {
+		"Bullet/Bullet": {
+			"Bullet/Beam": { "x": 27.56, "scaleX": 0.342, "scaleY": 0.342, "rotation": -90, "width": 173, "height": 242 }
+		},
+		"ElectricLine": {
+			"Spawn/ElectricLine/ElectricLine0001": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0002": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0003": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0004": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0005": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0006": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0007": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0008": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0009": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0010": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0011": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0012": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0013": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0014": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0015": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0016": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 },
+			"Spawn/ElectricLine/ElectricLine0017": { "x": -121.72, "y": -125.81, "width": 300, "height": 300 }
+		},
+		"ElectricLine2": {
+			"Spawn/Electric1/Electric10001": { "x": 19.52, "y": -3.65, "rotation": -91.68, "width": 300, "height": 300 },
+			"Spawn/Electric1/Electric10002": { "x": 19.52, "y": -3.65, "rotation": -91.68, "width": 300, "height": 300 },
+			"Spawn/Electric1/Electric10003": { "x": 19.52, "y": -3.65, "rotation": -91.68, "width": 300, "height": 300 },
+			"Spawn/Electric1/Electric10004": { "x": 19.52, "y": -3.65, "rotation": -91.68, "width": 300, "height": 300 }
+		},
+		"ElectricLine3": {
+			"Spawn/Electric2/Electric20001": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20002": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20003": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20004": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20005": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20006": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 }
+		},
+		"ElectricLine4": {
+			"Spawn/Electric3/Electric30001": { "x": 23.18, "y": 3.45, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric3/Electric30002": { "x": 23.18, "y": 3.45, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric3/Electric30003": { "x": 23.18, "y": 3.45, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric3/Electric30004": { "x": 23.18, "y": 3.45, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric3/Electric30005": { "x": 23.18, "y": 3.45, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric3/Electric30006": { "x": 23.18, "y": 3.45, "rotation": -90, "width": 300, "height": 300 }
+		},
+		"ElectricLine5": {
+			"Spawn/Electric2/Electric20001": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20002": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20003": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20004": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20005": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 },
+			"Spawn/Electric2/Electric20006": { "x": 4.48, "y": -1.46, "rotation": -90, "width": 300, "height": 300 }
+		},
+		"ElectricLine6": {
+			"Spawn/Electric1/Electric10001": { "x": 19.52, "y": -3.65, "rotation": -91.68, "width": 300, "height": 300 },
+			"Spawn/Electric1/Electric10002": { "x": 19.52, "y": -3.65, "rotation": -91.68, "width": 300, "height": 300 },
+			"Spawn/Electric1/Electric10003": { "x": 19.52, "y": -3.65, "rotation": -91.68, "width": 300, "height": 300 },
+			"Spawn/Electric1/Electric10004": { "x": 19.52, "y": -3.65, "rotation": -91.68, "width": 300, "height": 300 }
+		},
+		"Hit/HitEffect0001": {
+			"Hit/HitEffect0001": { "width": 300, "height": 300 },
+			"Hit/HitEffect0002": { "width": 300, "height": 300 },
+			"Hit/HitEffect0003": { "width": 300, "height": 300 },
+			"Hit/HitEffect0004": { "width": 300, "height": 300 },
+			"Hit/HitEffect0005": { "width": 300, "height": 300 },
+			"Hit/HitEffect0006": { "width": 300, "height": 300 }
+		},
+		"LaserHit": {
+			"LaserHit/LaserHit0001": { "x": -1.08, "y": 0.44, "width": 300, "height": 300 },
+			"LaserHit/LaserHit0002": { "width": 300, "height": 300 },
+			"LaserHit/LaserHit0003": { "width": 300, "height": 300 },
+			"LaserHit/LaserHit0004": { "width": 300, "height": 300 }
+		},
+		"Shoot/ShootFX0001": {
+			"Shoot/ShootFX0001": { "width": 300, "height": 300 },
+			"Shoot/ShootFX0002": { "width": 300, "height": 300 },
+			"Shoot/ShootFX0003": { "width": 300, "height": 300 },
+			"Shoot/ShootFX0004": { "width": 300, "height": 300 },
+			"Shoot/ShootFX0005": { "width": 300, "height": 300 },
+			"Shoot/ShootFX0006": { "width": 300, "height": 300 },
+			"Shoot/ShootFX0007": { "width": 300, "height": 300 },
+			"Shoot/ShootFX0008": { "width": 300, "height": 300 },
+			"Shoot/ShootFX0009": { "width": 300, "height": 300 },
+			"Shoot/ShootFX0010": { "x": 46, "y": 11, "width": 300, "height": 300 }
+		},
+		"Spawn/Hex": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex10": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex11": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex12": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex13": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex14": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex15": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex16": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex17": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex18": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex19": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex2": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex3": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex4": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex5": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex6": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex7": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex8": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/Hex9": {
+			"Spawn/Hex": { "x": 2.2, "y": 1.38, "rotation": -89.71, "width": 256, "height": 256 }
+		},
+		"Spawn/HexHalf": {
+			"Spawn/HexHalf": { "x": 3.72, "y": 2.89, "scaleX": 0.823, "scaleY": 0.666, "rotation": -90, "width": 256, "height": 256 }
+		},
+		"Spawn/TURRET_Synth": {
+			"Spawn/TURRET_Synth": { "x": 0.07, "y": 54.39, "scaleX": 0.8, "scaleY": 0.8, "width": 147, "height": 232 }
+		},
+		"SpwanLine": {
+			"SpwanLine": { "x": 89.65, "y": 0.45, "rotation": -90.13, "width": 176, "height": 242 }
+		},
+		"root2": {
+			"Asset 3": { "width": 157, "height": 130 }
+		}
+	}
+},
+"animations": {
+	"1_Empty": {
+		"slots": {
+			"Bullet/Bullet": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex13": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex14": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex15": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex16": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex17": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex18": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex19": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/HexHalf": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"SpwanLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"HitFX": {
+				"translate": [
+					{ "time": 0, "x": 7.73, "y": -24.49 }
+				]
+			}
+		}
+	},
+	"BassTurretFX_Attack": {
+		"slots": {
+			"Bullet/Bullet": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine2": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 0.1667, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 0.2, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.2667, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.6, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 0.6667, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 0.7, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 0.7667, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 0.8, "name": null },
+					{ "time": 1, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 1.0667, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 1.1, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 1.1667, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 1.2, "name": null },
+					{ "time": 1.4, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 1.4667, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 1.5, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 1.5333, "name": null },
+					{ "time": 1.5667, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 1.6, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.0333, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.1, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.1333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.1667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.2, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.2667, "name": null },
+					{ "time": 0.3667, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.4333, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.4667, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.5, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.5333, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.6, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.6333, "name": null },
+					{ "time": 0.7, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.7667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.8, "name": null },
+					{ "time": 0.8333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.8667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.9333, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.9667, "name": null },
+					{ "time": 1, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 1.0667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 1.1, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 1.1333, "name": null },
+					{ "time": 1.1667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 1.2333, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 1.2667, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Electric3/Electric30001" },
+					{ "time": 0.0333, "name": "Spawn/Electric3/Electric30002" },
+					{ "time": 0.0667, "name": "Spawn/Electric3/Electric30003" },
+					{ "time": 0.1, "name": "Spawn/Electric3/Electric30004" },
+					{ "time": 0.1333, "name": "Spawn/Electric3/Electric30005" },
+					{ "time": 0.1667, "name": "Spawn/Electric3/Electric30006" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.4333, "name": "Spawn/Electric3/Electric30001" },
+					{ "time": 0.4667, "name": "Spawn/Electric3/Electric30002" },
+					{ "time": 0.5, "name": "Spawn/Electric3/Electric30003" },
+					{ "time": 0.5333, "name": "Spawn/Electric3/Electric30004" },
+					{ "time": 0.5667, "name": "Spawn/Electric3/Electric30005" },
+					{ "time": 0.6, "name": "Spawn/Electric3/Electric30006" },
+					{ "time": 0.6333, "name": null },
+					{ "time": 0.6667, "name": "Spawn/Electric3/Electric30001" },
+					{ "time": 0.7, "name": "Spawn/Electric3/Electric30002" },
+					{ "time": 0.7333, "name": "Spawn/Electric3/Electric30003" },
+					{ "time": 0.7667, "name": "Spawn/Electric3/Electric30004" },
+					{ "time": 0.8, "name": "Spawn/Electric3/Electric30005" },
+					{ "time": 0.8333, "name": "Spawn/Electric3/Electric30006" },
+					{ "time": 0.8667, "name": null },
+					{ "time": 1.2667, "name": "Spawn/Electric3/Electric30001" },
+					{ "time": 1.3, "name": "Spawn/Electric3/Electric30002" },
+					{ "time": 1.3333, "name": "Spawn/Electric3/Electric30003" },
+					{ "time": 1.3667, "name": "Spawn/Electric3/Electric30004" },
+					{ "time": 1.4, "name": "Spawn/Electric3/Electric30005" },
+					{ "time": 1.4333, "name": "Spawn/Electric3/Electric30006" },
+					{ "time": 1.4667, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.0333, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.1, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.1333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.1667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.2, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.2667, "name": null },
+					{ "time": 0.3667, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.4333, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.4667, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.5, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.5333, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.6, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.6333, "name": null },
+					{ "time": 0.7, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.7667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.8, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.8333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.8667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.9333, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.9667, "name": null },
+					{ "time": 1, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 1.0667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 1.1, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 1.1333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 1.1667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 1.2333, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 1.2667, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 0.1667, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 0.2, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 0.2667, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.6, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 0.6667, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 0.7, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 0.7667, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 0.8, "name": null },
+					{ "time": 1, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 1.0667, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 1.1, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 1.1667, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 1.2, "name": null },
+					{ "time": 1.4, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 1.4667, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 1.5, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 1.5667, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 1.6, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex2": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.1333, "color": "ffffff6c" },
+					{ "time": 0.2333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex3": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff2a" },
+					{ "time": 0.4333, "color": "ffffff6c" },
+					{ "time": 0.5333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex4": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffff2a" },
+					{ "time": 0.6667, "color": "ffffff6c" },
+					{ "time": 0.8, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex5": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff2a" },
+					{ "time": 0.9667, "color": "ffffff6c" },
+					{ "time": 1.1, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex6": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a", "curve": "stepped" },
+					{ "time": 1.0667, "color": "ffffff2a" },
+					{ "time": 1.2, "color": "ffffff6c" },
+					{ "time": 1.3667, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex7": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e", "curve": "stepped" },
+					{ "time": 1.3667, "color": "ffffff3e" },
+					{ "time": 1.5, "color": "ffffff6c" },
+					{ "time": 1.6667, "color": "ffffff3e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex8": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.1333, "color": "ffffff6c" },
+					{ "time": 0.2333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex9": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff2a" },
+					{ "time": 0.2333, "color": "ffffff6c" },
+					{ "time": 0.3333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex10": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff2a" },
+					{ "time": 0.3333, "color": "ffffff6c" },
+					{ "time": 0.4333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex11": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff2a" },
+					{ "time": 0.4333, "color": "ffffff6c" },
+					{ "time": 0.5333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex12": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff2a" },
+					{ "time": 0.5333, "color": "ffffff6c" },
+					{ "time": 0.6333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex13": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff3e" },
+					{ "time": 0.6333, "color": "ffffff6c" },
+					{ "time": 0.7333, "color": "ffffff3e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex14": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffff3e" },
+					{ "time": 0.7333, "color": "ffffff6c" },
+					{ "time": 0.8333, "color": "ffffff3e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex15": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff3e" },
+					{ "time": 0.8333, "color": "ffffff6c" },
+					{ "time": 0.9333, "color": "ffffff3e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex16": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffff3e" },
+					{ "time": 0.9333, "color": "ffffff6c" },
+					{ "time": 1.0333, "color": "ffffff3e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex17": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffff3e" },
+					{ "time": 1.0333, "color": "ffffff6c" },
+					{ "time": 1.1333, "color": "ffffff3e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex18": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff3e" },
+					{ "time": 1.1333, "color": "ffffff6c" },
+					{ "time": 1.2333, "color": "ffffff3e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex19": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e", "curve": "stepped" },
+					{ "time": 1.1, "color": "ffffff3e" },
+					{ "time": 1.2333, "color": "ffffff6c" },
+					{ "time": 1.3333, "color": "ffffff3e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/HexHalf": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "9ff1ffff" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "9ff1ffff" },
+					{ "time": 0.8667, "color": "ffffffff" },
+					{ "time": 1.2, "color": "9ff1ffff" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "9ff1ffff" }
+				]
+			},
+			"SpwanLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"SpawnFX2": {
+				"translate": [
+					{ "time": 0, "x": -1.16, "y": -1.16 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.466, "y": 0.078 }
+				]
+			},
+			"ElectricLine": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 35.8 }
+				]
+			},
+			"ElectricLine2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 58.37 }
+				]
+			},
+			"HexHalf": {
+				"translate": [
+					{ "time": 0, "x": -1.3, "y": -30.5 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.221, "y": 0.085 }
+				]
+			},
+			"Hex": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex2": {
+				"translate": [
+					{ "time": 0, "x": 58.64, "y": 37.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex3": {
+				"translate": [
+					{ "time": 0, "x": 116.63, "y": -35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex4": {
+				"translate": [
+					{ "time": 0, "x": 57.86, "y": -106.74 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex5": {
+				"translate": [
+					{ "time": 0, "x": -58.71, "y": -106.67 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex6": {
+				"translate": [
+					{ "time": 0, "x": -116.56, "y": -34.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex7": {
+				"translate": [
+					{ "time": 0, "x": -57.86, "y": 37.15 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Electric1": {
+				"translate": [
+					{ "time": 0.1, "x": -41.32, "y": -57.32, "curve": "stepped" },
+					{ "time": 0.3667, "x": -41.32, "y": -57.32 },
+					{ "time": 0.6, "x": -130.29, "y": -4.83, "curve": "stepped" },
+					{ "time": 0.9667, "x": -130.29, "y": -4.83 },
+					{ "time": 1, "x": -82.77, "y": -119.86, "curve": "stepped" },
+					{ "time": 1.3667, "x": -82.77, "y": -119.86 },
+					{ "time": 1.4, "x": 135.2, "y": -13.62 }
+				],
+				"scale": [
+					{ "time": 0.6, "x": 1.224, "y": -1.22, "curve": "stepped" },
+					{ "time": 0.9667, "x": 1.224, "y": -1.22 },
+					{ "time": 1, "x": 1.224, "y": -1.63, "curve": "stepped" },
+					{ "time": 1.3667, "x": 1.224, "y": -1.63 },
+					{ "time": 1.4, "x": 1.224, "y": -1.22 }
+				]
+			},
+			"Electric2": {
+				"translate": [
+					{ "time": 0, "x": 119.97, "y": -12, "curve": "stepped" },
+					{ "time": 0.2667, "x": 119.97, "y": -12 },
+					{ "time": 0.3667, "x": -52.75, "y": 77.56, "curve": "stepped" },
+					{ "time": 0.6667, "x": -52.75, "y": 77.56 },
+					{ "time": 0.7, "x": -62.3, "y": -79.62, "curve": "stepped" },
+					{ "time": 0.9667, "x": -62.3, "y": -79.62 },
+					{ "time": 1, "x": 119.3, "y": 4.41 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 1, "y": 1 },
+					{ "time": 0.3667, "x": 1.121, "y": 1.12, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1.121, "y": 1.12 },
+					{ "time": 0.7, "x": 1.121, "y": -1.121, "curve": "stepped" },
+					{ "time": 0.9667, "x": 1.121, "y": -1.121 },
+					{ "time": 1, "x": 1.12, "y": -1.12 }
+				]
+			},
+			"Electric3": {
+				"translate": [
+					{ "time": 0, "x": 18.66, "y": -82.65, "curve": "stepped" },
+					{ "time": 0.2, "x": 18.66, "y": -82.65 },
+					{ "time": 0.4333, "x": -122.04, "y": 9.28, "curve": "stepped" },
+					{ "time": 0.6333, "x": -122.04, "y": 9.28 },
+					{ "time": 0.6667, "x": 102.85, "y": 83.54, "curve": "stepped" },
+					{ "time": 1.2333, "x": 102.85, "y": 83.54 },
+					{ "time": 1.2667, "x": -35.71, "y": 61.62 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": 1, "y": -1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": -1 },
+					{ "time": 0.6667, "x": 1.496, "y": -1.496, "curve": "stepped" },
+					{ "time": 1.2333, "x": 1.496, "y": -1.496, "curve": "stepped" },
+					{ "time": 1.2667, "x": 1.496, "y": -1.496 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1.03, "y": 1.03 }
+				]
+			},
+			"SpawnFX": {
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 }
+				]
+			},
+			"Hex8": {
+				"rotate": [
+					{ "time": 0, "angle": -6.63 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.45, "y": 107.78 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex9": {
+				"translate": [
+					{ "time": 0, "x": 117.71, "y": 107.18 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex10": {
+				"translate": [
+					{ "time": 0, "x": 175.65, "y": 36.67 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex11": {
+				"translate": [
+					{ "time": 0, "x": 232.61, "y": -34.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex12": {
+				"translate": [
+					{ "time": 0, "x": 173.57, "y": -106.19 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex13": {
+				"translate": [
+					{ "time": 0, "x": 116.08, "y": -178.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex14": {
+				"translate": [
+					{ "time": 0, "x": -0.86, "y": -178.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex15": {
+				"translate": [
+					{ "time": 0, "x": -117.85, "y": -178.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex16": {
+				"translate": [
+					{ "time": 0, "x": -174.94, "y": -106.99 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex17": {
+				"translate": [
+					{ "time": 0, "x": -233.34, "y": -34.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex18": {
+				"translate": [
+					{ "time": 0, "x": -174.06, "y": 36.31 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex19": {
+				"translate": [
+					{ "time": 0, "x": -116.41, "y": 108.21 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Electric4": {
+				"translate": [
+					{ "time": 0, "x": -183.13, "y": -9.42, "curve": "stepped" },
+					{ "time": 0.2667, "x": -183.13, "y": -9.42 },
+					{ "time": 0.3667, "x": -105.74, "y": -120.34, "curve": "stepped" },
+					{ "time": 0.6667, "x": -105.74, "y": -120.34 },
+					{ "time": 0.7, "x": -131.53, "y": 167.28, "curve": "stepped" },
+					{ "time": 0.9667, "x": -131.53, "y": 167.28 },
+					{ "time": 1, "x": 99.94, "y": 114.64 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 1, "y": 1 },
+					{ "time": 0.3667, "x": 1.121, "y": 1.12, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1.121, "y": 1.12 },
+					{ "time": 0.7, "x": 1.121, "y": -1.121, "curve": "stepped" },
+					{ "time": 0.9667, "x": 1.121, "y": -1.121 },
+					{ "time": 1, "x": 1.12, "y": 1.5 }
+				]
+			},
+			"Electric5": {
+				"translate": [
+					{ "time": 0.1, "x": 126.11, "y": 136.45, "curve": "stepped" },
+					{ "time": 0.3667, "x": 126.11, "y": 136.45 },
+					{ "time": 0.6, "x": 88.18, "y": -113, "curve": "stepped" },
+					{ "time": 0.9667, "x": 88.18, "y": -113 },
+					{ "time": 1, "x": -135.69, "y": 61, "curve": "stepped" },
+					{ "time": 1.3667, "x": -135.69, "y": 61 },
+					{ "time": 1.4, "x": -68.31, "y": -141.61 }
+				],
+				"scale": [
+					{ "time": 0.6, "x": 1.224, "y": -1.22, "curve": "stepped" },
+					{ "time": 0.9667, "x": 1.224, "y": -1.22 },
+					{ "time": 1, "x": 1.224, "y": 1.22, "curve": "stepped" },
+					{ "time": 1.3667, "x": 1.224, "y": 1.22 },
+					{ "time": 1.4, "x": 1.224, "y": 1.63 }
+				]
+			}
+		}
+	},
+	"BassTurretFX_Disappear": {
+		"slots": {
+			"Bullet/Bullet": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex2": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex3": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex4": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex5": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex6": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex7": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex8": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex9": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex10": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex11": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex12": {
+				"color": [
+					{ "time": 0, "color": "ffffff2a" },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex13": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e" },
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex14": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex15": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex16": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex17": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e" },
+					{ "time": 0.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex18": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex19": {
+				"color": [
+					{ "time": 0, "color": "ffffff3e" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/HexHalf": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"SpwanLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"SpawnFX2": {
+				"translate": [
+					{ "time": 0, "x": -1.16, "y": -1.16 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.466, "y": 0.078 }
+				]
+			},
+			"ElectricLine": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 35.8 }
+				]
+			},
+			"ElectricLine2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 58.37 }
+				]
+			},
+			"HexHalf": {
+				"translate": [
+					{ "time": 0, "x": -1.3, "y": -30.5 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.221, "y": 0.085 }
+				]
+			},
+			"Hex": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex2": {
+				"translate": [
+					{ "time": 0, "x": 58.64, "y": 37.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex3": {
+				"translate": [
+					{ "time": 0, "x": 116.63, "y": -35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex4": {
+				"translate": [
+					{ "time": 0, "x": 57.86, "y": -106.74 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex5": {
+				"translate": [
+					{ "time": 0, "x": -58.71, "y": -106.67 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex6": {
+				"translate": [
+					{ "time": 0, "x": -116.56, "y": -34.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex7": {
+				"translate": [
+					{ "time": 0, "x": -57.86, "y": 37.15 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Electric2": {
+				"translate": [
+					{ "time": 0, "x": 119.97, "y": -12 }
+				]
+			},
+			"Electric3": {
+				"translate": [
+					{ "time": 0, "x": 18.66, "y": -82.65 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1.03, "y": 1.03 }
+				]
+			},
+			"SpawnFX": {
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 }
+				]
+			},
+			"Hex8": {
+				"rotate": [
+					{ "time": 0, "angle": -6.63 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.45, "y": 107.78 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex9": {
+				"translate": [
+					{ "time": 0, "x": 117.71, "y": 107.18 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex10": {
+				"translate": [
+					{ "time": 0, "x": 175.65, "y": 36.67 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex11": {
+				"translate": [
+					{ "time": 0, "x": 232.61, "y": -34.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex12": {
+				"translate": [
+					{ "time": 0, "x": 173.57, "y": -106.19 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex13": {
+				"translate": [
+					{ "time": 0, "x": 116.08, "y": -178.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex14": {
+				"translate": [
+					{ "time": 0, "x": -0.86, "y": -178.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex15": {
+				"translate": [
+					{ "time": 0, "x": -117.85, "y": -178.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex16": {
+				"translate": [
+					{ "time": 0, "x": -174.94, "y": -106.99 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex17": {
+				"translate": [
+					{ "time": 0, "x": -233.34, "y": -34.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex18": {
+				"translate": [
+					{ "time": 0, "x": -174.06, "y": 36.31 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex19": {
+				"translate": [
+					{ "time": 0, "x": -116.41, "y": 108.21 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Electric4": {
+				"translate": [
+					{ "time": 0, "x": 119.97, "y": -12 }
+				]
+			}
+		}
+	},
+	"BassTurretFX_Spawn": {
+		"slots": {
+			"Bullet/Bullet": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.2667, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex6": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex8": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex9": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex10": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex11": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex12": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex13": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex14": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.2667, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex15": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex16": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex17": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.3667, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex18": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/Hex19": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffff2a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Hex" }
+				]
+			},
+			"Spawn/HexHalf": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"SpwanLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"HexHalf": {
+				"translate": [
+					{ "time": 0, "x": -1.3, "y": -30.5 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.221, "y": 0.085 }
+				]
+			},
+			"Hex5": {
+				"translate": [
+					{ "time": 0, "x": -58.71, "y": -106.67 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex7": {
+				"translate": [
+					{ "time": 0, "x": -57.86, "y": 37.15 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Electric3": {
+				"translate": [
+					{ "time": 0, "x": 18.66, "y": -82.65 }
+				]
+			},
+			"Hex3": {
+				"translate": [
+					{ "time": 0, "x": 116.63, "y": -35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"SpawnFX2": {
+				"translate": [
+					{ "time": 0, "x": -1.16, "y": -1.16 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.466, "y": 0.078 }
+				]
+			},
+			"Hex6": {
+				"translate": [
+					{ "time": 0, "x": -116.56, "y": -34.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex2": {
+				"translate": [
+					{ "time": 0, "x": 58.64, "y": 37.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"ElectricLine": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 35.8 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1.03, "y": 1.03 }
+				]
+			},
+			"Electric2": {
+				"translate": [
+					{ "time": 0, "x": 119.97, "y": -12 }
+				]
+			},
+			"Hex": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex4": {
+				"translate": [
+					{ "time": 0, "x": 57.86, "y": -106.74 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"ElectricLine2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 58.37 }
+				]
+			},
+			"SpawnFX": {
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 }
+				]
+			},
+			"Hex8": {
+				"rotate": [
+					{ "time": 0, "angle": -6.63 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.45, "y": 107.78 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex9": {
+				"translate": [
+					{ "time": 0, "x": 117.71, "y": 107.18 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex10": {
+				"translate": [
+					{ "time": 0, "x": 175.65, "y": 36.67 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex11": {
+				"translate": [
+					{ "time": 0, "x": 232.61, "y": -34.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex12": {
+				"translate": [
+					{ "time": 0, "x": 173.57, "y": -106.19 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex13": {
+				"translate": [
+					{ "time": 0, "x": 116.08, "y": -178.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex14": {
+				"translate": [
+					{ "time": 0, "x": -0.86, "y": -178.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex15": {
+				"translate": [
+					{ "time": 0, "x": -117.85, "y": -178.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex16": {
+				"translate": [
+					{ "time": 0, "x": -174.94, "y": -106.99 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex17": {
+				"translate": [
+					{ "time": 0, "x": -233.34, "y": -34.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex18": {
+				"translate": [
+					{ "time": 0, "x": -174.06, "y": 36.31 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Hex19": {
+				"translate": [
+					{ "time": 0, "x": -116.41, "y": 108.21 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"Electric4": {
+				"translate": [
+					{ "time": 0, "x": 119.97, "y": -12 }
+				]
+			}
+		}
+	},
+	"Hit FX": {
+		"slots": {
+			"Bullet/Bullet": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": "Hit/HitEffect0001" },
+					{ "time": 0.0333, "name": "Hit/HitEffect0002" },
+					{ "time": 0.0667, "name": "Hit/HitEffect0003" },
+					{ "time": 0.1, "name": "Hit/HitEffect0004" },
+					{ "time": 0.1333, "name": "Hit/HitEffect0005" },
+					{ "time": 0.1667, "name": "Hit/HitEffect0006" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex13": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex14": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex15": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex16": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex17": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex18": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex19": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/HexHalf": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"SpwanLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"HitFX": {
+				"translate": [
+					{ "time": 0, "x": 4.53, "y": -31.52 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.728, "y": 0.728 }
+				]
+			}
+		}
+	},
+	"LASERBEAM_HIT": {
+		"slots": {
+			"Bullet/Bullet": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"ElectricLine": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"ElectricLine2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": "LaserHit/LaserHit0001" },
+					{ "time": 0.0333, "name": "LaserHit/LaserHit0002" },
+					{ "time": 0.1, "name": "LaserHit/LaserHit0003" },
+					{ "time": 0.1667, "name": "LaserHit/LaserHit0004" },
+					{ "time": 0.2, "name": "LaserHit/LaserHit0001" },
+					{ "time": 0.2333, "name": "LaserHit/LaserHit0002" },
+					{ "time": 0.3, "name": "LaserHit/LaserHit0003" },
+					{ "time": 0.3667, "name": "LaserHit/LaserHit0004" }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex9": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex10": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex11": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex12": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex13": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex14": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex15": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex16": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex17": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex18": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/Hex19": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/HexHalf": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"SpwanLine": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"HitFX": {
+				"translate": [
+					{ "time": 0, "x": 21.9, "y": -17.41, "curve": "stepped" },
+					{ "time": 0.2, "x": 21.9, "y": -17.41 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.419, "y": 2.419, "curve": "stepped" },
+					{ "time": 0.2, "x": 2.419, "y": 2.419 }
+				]
+			},
+			"LaserHit": {
+				"rotate": [
+					{ "time": 0.1667, "angle": 0 },
+					{ "time": 0.2, "angle": -96.26 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.26, "y": 4.02 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.634, "y": 0.634 }
+				]
+			}
+		}
+	},
+	"LaserBeamFX": {
+		"slots": {
+			"ElectricLine": {
+				"attachment": [
+					{ "time": 0, "name": "Spawn/ElectricLine/ElectricLine0001" },
+					{ "time": 0.0333, "name": "Spawn/ElectricLine/ElectricLine0002" },
+					{ "time": 0.0667, "name": "Spawn/ElectricLine/ElectricLine0003" },
+					{ "time": 0.1, "name": "Spawn/ElectricLine/ElectricLine0004" },
+					{ "time": 0.1333, "name": "Spawn/ElectricLine/ElectricLine0005" },
+					{ "time": 0.1667, "name": "Spawn/ElectricLine/ElectricLine0006" },
+					{ "time": 0.2, "name": "Spawn/ElectricLine/ElectricLine0007" },
+					{ "time": 0.2333, "name": "Spawn/ElectricLine/ElectricLine0008" },
+					{ "time": 0.2667, "name": "Spawn/ElectricLine/ElectricLine0009" },
+					{ "time": 0.3, "name": "Spawn/ElectricLine/ElectricLine0010" },
+					{ "time": 0.3333, "name": "Spawn/ElectricLine/ElectricLine0011" },
+					{ "time": 0.3667, "name": "Spawn/ElectricLine/ElectricLine0012" },
+					{ "time": 0.4, "name": "Spawn/ElectricLine/ElectricLine0013" },
+					{ "time": 0.4333, "name": "Spawn/ElectricLine/ElectricLine0014" },
+					{ "time": 0.4667, "name": "Spawn/ElectricLine/ElectricLine0015" },
+					{ "time": 0.5, "name": "Spawn/ElectricLine/ElectricLine0016" },
+					{ "time": 0.5333, "name": "Spawn/ElectricLine/ElectricLine0017" },
+					{ "time": 0.5667, "name": null },
+					{ "time": 0.6, "name": "Spawn/ElectricLine/ElectricLine0001" },
+					{ "time": 0.6333, "name": "Spawn/ElectricLine/ElectricLine0002" }
+				]
+			},
+			"ElectricLine2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex13": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex14": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex15": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex16": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex17": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex18": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex19": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/HexHalf": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"SpwanLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ShootFX": {
+				"translate": [
+					{ "time": 0, "x": 25, "y": 11 }
+				]
+			},
+			"ElectricLine2": {
+				"translate": [
+					{ "time": 0, "x": -74.79, "y": -15.42, "curve": "stepped" },
+					{ "time": 0.0333, "x": -74.79, "y": -15.42, "curve": "stepped" },
+					{ "time": 0.0667, "x": -74.79, "y": -15.42, "curve": "stepped" },
+					{ "time": 0.1, "x": -74.79, "y": -15.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.372, "y": 0.573 }
+				]
+			},
+			"LaserBeam": {
+				"scale": [
+					{ "time": 0, "x": 1.619, "y": 1 },
+					{ "time": 0.0667, "x": 1.62, "y": 1.029 },
+					{ "time": 0.1667, "x": 1.62, "y": 1 },
+					{ "time": 0.2333, "x": 1.62, "y": 1.029 },
+					{ "time": 0.2667, "x": 1.62, "y": 0.982 },
+					{ "time": 0.3, "x": 1.62, "y": 1 },
+					{ "time": 0.3667, "x": 1.62, "y": 1.029 },
+					{ "time": 0.4, "x": 1.62, "y": 0.982 },
+					{ "time": 0.4667, "x": 1.62, "y": 1 },
+					{ "time": 0.5333, "x": 1.62, "y": 1.029 },
+					{ "time": 0.5667, "x": 1.62, "y": 0.982 },
+					{ "time": 0.6333, "x": 1.62, "y": 1 }
+				]
+			}
+		}
+	},
+	"Shoot FX": {
+		"slots": {
+			"Bullet/Bullet": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": "Shoot/ShootFX0001" },
+					{ "time": 0.0333, "name": "Shoot/ShootFX0002" },
+					{ "time": 0.0667, "name": "Shoot/ShootFX0003" },
+					{ "time": 0.1, "name": "Shoot/ShootFX0004" },
+					{ "time": 0.1333, "name": "Shoot/ShootFX0005" },
+					{ "time": 0.1667, "name": "Shoot/ShootFX0006" },
+					{ "time": 0.2, "name": "Shoot/ShootFX0007" },
+					{ "time": 0.2333, "name": "Shoot/ShootFX0008" },
+					{ "time": 0.2667, "name": "Shoot/ShootFX0009" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex13": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex14": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex15": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex16": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex17": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex18": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex19": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/HexHalf": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"SpwanLine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ShootFX": {
+				"translate": [
+					{ "time": 0, "x": 25, "y": 11 }
+				]
+			}
+		}
+	},
+	"Spawn_Enemy FX": {
+		"slots": {
+			"Bullet/Bullet": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine": {
+				"color": [
+					{ "time": 0, "color": "fffa00ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "Spawn/ElectricLine/ElectricLine0001" },
+					{ "time": 0.3333, "name": "Spawn/ElectricLine/ElectricLine0003" },
+					{ "time": 0.3667, "name": "Spawn/ElectricLine/ElectricLine0004" },
+					{ "time": 0.4, "name": "Spawn/ElectricLine/ElectricLine0005" },
+					{ "time": 0.4333, "name": "Spawn/ElectricLine/ElectricLine0006" },
+					{ "time": 0.4667, "name": "Spawn/ElectricLine/ElectricLine0007" },
+					{ "time": 0.5, "name": "Spawn/ElectricLine/ElectricLine0008" },
+					{ "time": 0.5333, "name": "Spawn/ElectricLine/ElectricLine0009" },
+					{ "time": 0.5667, "name": "Spawn/ElectricLine/ElectricLine0010" },
+					{ "time": 0.6, "name": "Spawn/ElectricLine/ElectricLine0011" },
+					{ "time": 0.6333, "name": "Spawn/ElectricLine/ElectricLine0012" },
+					{ "time": 0.6667, "name": "Spawn/ElectricLine/ElectricLine0002" },
+					{ "time": 0.7, "name": "Spawn/ElectricLine/ElectricLine0014" },
+					{ "time": 0.7333, "name": "Spawn/ElectricLine/ElectricLine0015" },
+					{ "time": 0.7667, "name": "Spawn/ElectricLine/ElectricLine0016" },
+					{ "time": 0.8, "name": "Spawn/ElectricLine/ElectricLine0017" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "Spawn/ElectricLine/ElectricLine0011" },
+					{ "time": 1.0333, "name": "Spawn/ElectricLine/ElectricLine0012" },
+					{ "time": 1.1, "name": "Spawn/ElectricLine/ElectricLine0014" },
+					{ "time": 1.1667, "name": "Spawn/ElectricLine/ElectricLine0016" },
+					{ "time": 1.2333, "name": "Spawn/ElectricLine/ElectricLine0017" },
+					{ "time": 1.2667, "name": null }
+				]
+			},
+			"ElectricLine2": {
+				"color": [
+					{ "time": 0, "color": "00ff00ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 0.0333, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 0.0667, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 0.1, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 1.7, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"color": [
+					{ "time": 0, "color": "fffa00ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": null },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.3333, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.3667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.4, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.4333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.4667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.5, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.7333, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.7667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.8, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.8333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.8667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.9, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"color": [
+					{ "time": 0, "color": "fffa00ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Electric3/Electric30006" },
+					{ "time": 0.1333, "name": "Spawn/Electric3/Electric30001" },
+					{ "time": 0.1667, "name": "Spawn/Electric3/Electric30002" },
+					{ "time": 0.2, "name": "Spawn/Electric3/Electric30003" },
+					{ "time": 0.2333, "name": "Spawn/Electric3/Electric30004" },
+					{ "time": 0.2667, "name": "Spawn/Electric3/Electric30005" },
+					{ "time": 0.3, "name": "Spawn/Electric3/Electric30006" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"color": [
+					{ "time": 0, "color": "fffa00ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": null },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.3333, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.3667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.4, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.4333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.4667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.5, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.7333, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.7667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.8, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.8333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.8667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.9, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"color": [
+					{ "time": 0, "color": "fffa00ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 0.0333, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 0.0667, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 0.1, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 1.7, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"color": [
+					{ "time": 0, "color": "fffa0000" },
+					{ "time": 0.2, "color": "fffa00ff", "curve": "stepped" },
+					{ "time": 0.3, "color": "fffa00ff" },
+					{ "time": 0.9, "color": "fffa0000" }
+				]
+			},
+			"Spawn/Hex2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex6": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex8": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex9": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex10": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex11": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex12": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex13": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex14": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex15": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex16": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex17": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex18": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex19": {
+				"color": [
+					{ "time": 0, "color": "faff0000" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.3, "color": "faff0000" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2333, "name": null }
+				]
+			},
+			"Spawn/HexHalf": {
+				"color": [
+					{ "time": 0, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ff0000ff" },
+					{ "time": 0.7333, "color": "ff000000" }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"SpwanLine": {
+				"color": [
+					{ "time": 0, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ff0000ff" },
+					{ "time": 0.7333, "color": "ff000000" }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"SpawnFX2": {
+				"translate": [
+					{ "time": 0, "x": -1.16, "y": -9.22 },
+					{ "time": 0.0667, "x": -1.16, "y": -14.86 },
+					{ "time": 0.2667, "x": 0, "y": -23.58 },
+					{ "time": 0.3333, "x": 0, "y": -46.55 },
+					{ "time": 0.3667, "x": 0, "y": -50.58 },
+					{ "time": 0.4333, "x": 0, "y": -47.86 },
+					{ "time": 0.5, "x": 0, "y": -9.78, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": -9.78 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.466, "y": 0.078 },
+					{
+						"time": 0.0667,
+						"x": 1.219,
+						"y": 0.08,
+						"curve": [ 0.49, 0.01, 0.811, 0.26 ]
+					},
+					{ "time": 0.2667, "x": 2.154, "y": 0.08 },
+					{ "time": 0.3333, "x": 4.801, "y": 0.649 },
+					{ "time": 0.3667, "x": 5.26, "y": 0.6 },
+					{ "time": 0.4333, "x": 4.801, "y": 0.649 },
+					{ "time": 0.5, "x": 0.4, "y": 0.649 },
+					{ "time": 0.7333, "x": 0.216, "y": 0.649 }
+				]
+			},
+			"ElectricLine": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 35.8 }
+				]
+			},
+			"ElectricLine2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 58.37, "curve": "stepped" },
+					{ "time": 0.9667, "x": 0, "y": 58.37 },
+					{ "time": 1, "x": -224.53, "y": -60.88, "curve": "stepped" },
+					{ "time": 1.1, "x": -224.53, "y": -60.88 }
+				],
+				"scale": [
+					{ "time": 1, "x": -0.73, "y": 0.73 }
+				]
+			},
+			"HexHalf": {
+				"translate": [
+					{ "time": 0, "x": -1.3, "y": -30.5 },
+					{ "time": 0.1333, "x": -0.65, "y": -30.5, "curve": "stepped" },
+					{ "time": 0.2667, "x": -0.65, "y": -30.5 },
+					{ "time": 0.3333, "x": 0.65, "y": -38.94 },
+					{ "time": 0.4667, "x": 0.65, "y": -42.26 },
+					{ "time": 0.5667, "x": 0.65, "y": -43.37 },
+					{ "time": 0.8333, "x": -0.95, "y": -44.98 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.221, "y": 0.085, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0.221, "y": 0.085, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0.221, "y": 0.085 },
+					{ "time": 0.3333, "x": 0.675, "y": 0.654 },
+					{ "time": 0.3667, "x": 0.675, "y": 0.598 },
+					{ "time": 0.4667, "x": 0.675, "y": 0.654 },
+					{ "time": 0.5667, "x": 0.671, "y": 0.649 }
+				]
+			},
+			"Hex": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex4": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex5": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex7": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Electric1": {
+				"translate": [
+					{ "time": 0, "x": 1.1, "y": -31.99 }
+				]
+			},
+			"Hex8": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex9": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex10": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex11": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex12": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex13": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex14": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex15": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex16": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex17": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex18": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex19": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Electric5": {
+				"translate": [
+					{ "time": 0, "x": 1.1, "y": -31.99 }
+				]
+			}
+		}
+	},
+	"Spawn_Turret FX": {
+		"slots": {
+			"Bullet/Bullet": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ElectricLine": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "Spawn/ElectricLine/ElectricLine0001" },
+					{ "time": 0.3333, "name": "Spawn/ElectricLine/ElectricLine0003" },
+					{ "time": 0.3667, "name": "Spawn/ElectricLine/ElectricLine0004" },
+					{ "time": 0.4, "name": "Spawn/ElectricLine/ElectricLine0005" },
+					{ "time": 0.4333, "name": "Spawn/ElectricLine/ElectricLine0006" },
+					{ "time": 0.4667, "name": "Spawn/ElectricLine/ElectricLine0007" },
+					{ "time": 0.5, "name": "Spawn/ElectricLine/ElectricLine0008" },
+					{ "time": 0.5333, "name": "Spawn/ElectricLine/ElectricLine0009" },
+					{ "time": 0.5667, "name": "Spawn/ElectricLine/ElectricLine0010" },
+					{ "time": 0.6, "name": "Spawn/ElectricLine/ElectricLine0011" },
+					{ "time": 0.6333, "name": "Spawn/ElectricLine/ElectricLine0012" },
+					{ "time": 0.6667, "name": "Spawn/ElectricLine/ElectricLine0002" },
+					{ "time": 0.7, "name": "Spawn/ElectricLine/ElectricLine0014" },
+					{ "time": 0.7333, "name": "Spawn/ElectricLine/ElectricLine0015" },
+					{ "time": 0.7667, "name": "Spawn/ElectricLine/ElectricLine0016" },
+					{ "time": 0.8, "name": "Spawn/ElectricLine/ElectricLine0017" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "Spawn/ElectricLine/ElectricLine0011" },
+					{ "time": 1.0333, "name": "Spawn/ElectricLine/ElectricLine0012" },
+					{ "time": 1.1, "name": "Spawn/ElectricLine/ElectricLine0014" },
+					{ "time": 1.1667, "name": "Spawn/ElectricLine/ElectricLine0016" },
+					{ "time": 1.2333, "name": "Spawn/ElectricLine/ElectricLine0017" },
+					{ "time": 1.2667, "name": null }
+				]
+			},
+			"ElectricLine2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 0.0333, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 0.0667, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 0.1, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 1.7, "name": null }
+				]
+			},
+			"ElectricLine3": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": null },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.3333, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.3667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.4, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.4333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.4667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.5, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.7333, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.7667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.8, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.8333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.8667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.9, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"ElectricLine4": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Electric3/Electric30006" },
+					{ "time": 0.1333, "name": "Spawn/Electric3/Electric30001" },
+					{ "time": 0.1667, "name": "Spawn/Electric3/Electric30002" },
+					{ "time": 0.2, "name": "Spawn/Electric3/Electric30003" },
+					{ "time": 0.2333, "name": "Spawn/Electric3/Electric30004" },
+					{ "time": 0.2667, "name": "Spawn/Electric3/Electric30005" },
+					{ "time": 0.3, "name": "Spawn/Electric3/Electric30006" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"ElectricLine5": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": null },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.3333, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.3667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.4, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.4333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.4667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.5, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.7333, "name": "Spawn/Electric2/Electric20001" },
+					{ "time": 0.7667, "name": "Spawn/Electric2/Electric20002" },
+					{ "time": 0.8, "name": "Spawn/Electric2/Electric20003" },
+					{ "time": 0.8333, "name": "Spawn/Electric2/Electric20004" },
+					{ "time": 0.8667, "name": "Spawn/Electric2/Electric20005" },
+					{ "time": 0.9, "name": "Spawn/Electric2/Electric20006" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"ElectricLine6": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Spawn/Electric1/Electric10001" },
+					{ "time": 0.0333, "name": "Spawn/Electric1/Electric10002" },
+					{ "time": 0.0667, "name": "Spawn/Electric1/Electric10003" },
+					{ "time": 0.1, "name": "Spawn/Electric1/Electric10004" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 1.7, "name": null }
+				]
+			},
+			"Hit/HitEffect0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"LaserHit": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Shoot/ShootFX0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				]
+			},
+			"Spawn/Hex2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex6": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex8": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex9": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex10": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex11": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex12": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex13": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex14": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex15": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex16": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex17": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex18": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/Hex19": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Spawn/HexHalf": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"Spawn/TURRET_Synth": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"SpwanLine": {
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"root2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"SpawnFX2": {
+				"translate": [
+					{ "time": 0, "x": -1.16, "y": -9.22 },
+					{ "time": 0.0667, "x": -1.16, "y": -14.86 },
+					{ "time": 0.2667, "x": 0, "y": -23.58 },
+					{ "time": 0.3333, "x": 0, "y": -46.55 },
+					{ "time": 0.3667, "x": 0, "y": -50.58 },
+					{ "time": 0.4333, "x": 0, "y": -47.86 },
+					{ "time": 0.5, "x": 0, "y": -9.78, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": -9.78 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.466, "y": 0.078 },
+					{
+						"time": 0.0667,
+						"x": 1.219,
+						"y": 0.08,
+						"curve": [ 0.49, 0.01, 0.811, 0.26 ]
+					},
+					{ "time": 0.2667, "x": 2.154, "y": 0.08 },
+					{ "time": 0.3333, "x": 4.801, "y": 0.649 },
+					{ "time": 0.3667, "x": 5.26, "y": 0.6 },
+					{ "time": 0.4333, "x": 4.801, "y": 0.649 },
+					{ "time": 0.5, "x": 0.4, "y": 0.649 },
+					{ "time": 0.7333, "x": 0.216, "y": 0.649 }
+				]
+			},
+			"ElectricLine": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 35.8 }
+				]
+			},
+			"ElectricLine2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 58.37, "curve": "stepped" },
+					{ "time": 0.9667, "x": 0, "y": 58.37 },
+					{ "time": 1, "x": -224.53, "y": -60.88, "curve": "stepped" },
+					{ "time": 1.1, "x": -224.53, "y": -60.88 }
+				],
+				"scale": [
+					{ "time": 1, "x": -0.73, "y": 0.73 }
+				]
+			},
+			"HexHalf": {
+				"translate": [
+					{ "time": 0, "x": -1.3, "y": -30.5 },
+					{ "time": 0.1333, "x": -0.65, "y": -30.5, "curve": "stepped" },
+					{ "time": 0.2667, "x": -0.65, "y": -30.5 },
+					{ "time": 0.3333, "x": 0.65, "y": -38.94 },
+					{ "time": 0.4667, "x": 0.65, "y": -42.26 },
+					{ "time": 0.5667, "x": 0.65, "y": -43.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.221, "y": 0.085, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0.221, "y": 0.085, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0.221, "y": 0.085 },
+					{ "time": 0.3333, "x": 0.675, "y": 0.654 },
+					{ "time": 0.3667, "x": 0.675, "y": 0.598 },
+					{ "time": 0.4667, "x": 0.675, "y": 0.654 },
+					{ "time": 0.5667, "x": 0.671, "y": 0.649 }
+				]
+			},
+			"Hex": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex4": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex5": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex7": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Electric1": {
+				"translate": [
+					{ "time": 0, "x": 1.1, "y": -31.99 }
+				]
+			},
+			"Hex8": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex9": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex10": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex11": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex12": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex13": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex14": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex15": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex16": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex17": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex18": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Hex19": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -34.4, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": -34.4 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.2, "x": 0.452, "y": 0.452 },
+					{ "time": 0.2667, "x": 1.732, "y": 1.732 },
+					{
+						"time": 0.3,
+						"x": 0.743,
+						"y": 0.743,
+						"curve": [ 0.019, 0.87, 0.208, 1 ]
+					},
+					{ "time": 0.9, "x": 1.572, "y": 1.572 }
+				]
+			},
+			"Electric5": {
+				"translate": [
+					{ "time": 0, "x": 1.1, "y": -31.99 }
+				]
+			}
+		}
+	}
+}
+}
